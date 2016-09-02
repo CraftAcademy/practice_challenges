@@ -1,0 +1,19 @@
+1) Explain the concept of Acceptance - Unit test cycle
+-   You have an idea, formulate it as user-stories with stakeholders, business-
+    value and features. These stories become your cucumber test (acceptance tests)
+    which you run until you can't test more at that moment. Then it's time for
+    Rspec and Unit tests, when they pass you move back to cucumber and so it goes on.
+
+2) - What tools would you use if working with AUC on a Sinatra application?
+    I understand this as AUC = authenticated user content
+    gem 'bcrypt-ruby', '3.0.1'
+    gem 'sinatra_warden'
+
+    gem 'data_mapper'
+    gem 'pg'
+    gem 'dm-postgres-adapter'
+
+    I would include the above gems. Top ones for password and authentication.
+    Bottom ones for databases and database-constructing/accessing
+
+ 
