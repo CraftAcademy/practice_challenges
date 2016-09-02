@@ -10,7 +10,7 @@ class Book
    @publisher = attrs[:publisher]
  end
 
-  def writeout(book)
+  def write_out(book)
     "#{book.author}, #{book.title}, #{book.publisher}, #{book.publishing_year}, #{book.pages}"
   end
 

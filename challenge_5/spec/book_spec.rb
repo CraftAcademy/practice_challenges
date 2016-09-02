@@ -28,7 +28,7 @@ describe Book do
   end
 
   it 'is expected to write out stuff when asked' do
-    expect(@book.writeout(@book)).to eq "me, stuff, Duppis, 1995, 50"
+    expect(@book.write_out(@book)).to eq "me, stuff, Duppis, 1995, 50"
   end
 
 

@@ -7,5 +7,12 @@
 2) Explain the MVC pattern
 - Model View Controller (MVC) is an architectural software design pattern
   for implementing user interfaces. The MVC pattern takes care of the
-  request made by the web- and application server and by the application 
+  request made by the web- and application server and by the application
   itself. An appropotiate response is then sent back to the client.
+
+  So:
+  In complex applications it can be a good idea to separate data (model) and
+  presetation (view) so that changes in the presentation wont mess up the
+  data-processing. Plus it makes it possible to reorganize the data without
+  any changes in presentation-tier. The MVC solves this by separating data from
+  presentation and ui - via the controller.
