@@ -1,10 +1,9 @@
+# AHAA!
 case age
+when 0..17
+  'Young'
 when 18..64
-    'Adult'
-  else
-    if age >= 65
-     'Senior'
-   elsif age <= 17
-     'Young'
-    end
+  'Adult'
+else
+  'Senior'
 end
