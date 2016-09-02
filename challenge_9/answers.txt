@@ -1,0 +1,11 @@
+1) Explain the Three Tier architecture
+- Data, Logic, Presentation
+  Data is databases, server-side information,
+  Logic is where the calculations are made and information gets presented in
+  Presentation. This is what we can see.
+
+2) Explain the MVC pattern
+- Model View Controller (MVC) is an architectural software design pattern
+  for implementing user interfaces. The MVC pattern takes care of the
+  request made by the web- and application server and by the application 
+  itself. An appropotiate response is then sent back to the client.
