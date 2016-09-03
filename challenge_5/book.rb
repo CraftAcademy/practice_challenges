@@ -1,17 +1,17 @@
 
 class Book
   attr_accessor :pages, :title, :author, :publishing_year, :publisher
-
- def initialize (attrs = {})
-   @pages = attrs[:pages]
-   @title = attrs[:title]
-   @author = attrs[:author]
-   @publishing_year = attrs[:publishing_year]
-   @publisher = attrs[:publisher]
+  
+ def initialize ()
+   @author = "Thomas Ochman"
+   @title = "Craft Academy"
+   @publisher = "Pragmatic Sweden"
+   @publishing_year = 2016
  end
-
-  def write_out(book)
-    "#{book.author}, #{book.title}, #{book.publisher}, #{book.publishing_year}, #{book.pages}"
+ 
+  def refer_to(page)
+    "#{@author}, #{@title}, #{@publisher}, #{@publishing_year}, #{page}"
   end
 
+  
 end
