@@ -1,0 +1,9 @@
+1) Explain the concept of Acceptance - Unit test cycle
+-   You have an idea, formulate it as user-stories with stakeholders, business-
+    value and features. These stories become your cucumber test (acceptance tests)
+    which you run until you can't test more at that moment. Then it's time for
+    Rspec and Unit tests, when they pass you move back to cucumber and so it goes on.
+
+2) - What tools would you use if working with AUC on a Sinatra application?
+    Well, as mentioned above, Cucumber and Rspec with the addition of Capybara for
+    help with doing stuff on the web.

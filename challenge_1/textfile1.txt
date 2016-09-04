@@ -1,0 +1,4 @@
+What are conditionals and can you name two specific ones?
+- Conditionals are expressions that evaluate to either true or false.
+
+- If/else-statements, while-loops

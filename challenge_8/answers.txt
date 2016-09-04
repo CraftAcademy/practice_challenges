@@ -1,0 +1,7 @@
+1 - Stakeholders (role), business value and features
+
+2 - As a (student) visitor
+    in order to find classes
+    I need to be able to search for classes
+
+    
