@@ -1,0 +1,20 @@
+- Explain the Three Tier architecture
+
+* Three Tier architecture is an architectural deployment style that describe the separation of functionality into layers with each segment being a tier(Presentaion tier, Logic tier and Data tier). Each tier is developed and maintained as an independent tier.
+
+Presentaion tier - The presentation layer provides the application's user interface.
+
+Logic tier - The Logic tier controls an application's functionality by performing detailed processing.
+
+Data tier - Data base, this is where information is stored and retrieved.
+
+
+- Explain the MVC pattern
+
+* MVC is a software architectural pattern for implementing user interfaces. Model, View, Controller.
+
+Model - Buissness rules / Applications data
+
+View - UI/presentation
+
+Controller - Communication between users and the Model.

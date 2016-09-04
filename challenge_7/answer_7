@@ -1,0 +1,13 @@
+- Explain the concept of Acceptance - Unit test cycle
+
+* You create user stories to describe what you want your site to do and why.
+ex: As a "role" I want "goal" so that "desire"
+
+* You run tests on your code before you deploy it to find flaws/bugs in your code early into development, so that you can easily fix it.
+
+* You run Acceptance tests on your user stories, and Unit tests on your actual code.
+
+
+- What tools would you use if working with AUC on a Sinatra application?
+
+* Cucumber and Rspec, they are the only ones im familiar with.

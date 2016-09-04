@@ -1,0 +1,9 @@
+- Explain the Single Responsibility Principle Pattern
+
+* Each class and module should focus on a single task.
+
+
+- Explain the DRY principle
+
+* Don't Repeat yourself.
+You should write code in a way that you that if you have to change it, you should only need to do so in one place rather than change the same thing at multiple places.

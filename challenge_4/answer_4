@@ -1,0 +1,2 @@
+test = {country: "Sweden", capital: "Stockholm"}
+"The capital of #{test[:country]} is #{test[:capital]}"
