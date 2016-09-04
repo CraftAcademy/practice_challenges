@@ -1,7 +1,9 @@
-case age
+def age(number)
+case
   when <18
-    print ('Young')
+    then 'Young'
   when >64
-    print ('Old')
-  else print ('Adult')
+    then 'Old'
+  else 'Adult'
+  end
 end
