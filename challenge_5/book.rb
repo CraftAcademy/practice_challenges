@@ -10,7 +10,11 @@ class Book
  end
 
  def citate(page)
-   "#{self.author}, #{self.title}, #{self.publisher}, #{self.year}, #{page}"
+   if page < 999
+     "#{self.author}, #{self.title}, #{self.publisher}, #{self.year}, #{page}"
+   else
+     raise "Get Bent"
+   end
  end
 
 end

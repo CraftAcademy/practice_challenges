@@ -15,7 +15,11 @@ describe Book do
   end
 
   it 'should provide a citation of the right page' do
-    expect(@book.citate("50")).to eq "Amber, Testing environments and passing params and inputs, Amber Bo Bamber, 1984, 50"
+    expect(@book.citate(50)).to eq "Amber, Testing environments and passing params and inputs, Amber Bo Bamber, 1984, 50"
+  end
+
+  it 'should tell you to "get bent" if you try to cite a page larger than the book' do
+    expect{@book.citate(1000)}.to raise_error "Get Bent"
   end
 
 end
