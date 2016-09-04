@@ -1,17 +1,23 @@
 
 class Book
-  attr_accessor :pages, :title, :author, :publishing_year, :publisher
+  attr_accessor :total_pages, :title, :author, :publishing_year, :publisher
   
- def initialize ()
-   @author = "Thomas Ochman"
-   @title = "Craft Academy"
-   @publisher = "Pragmatic Sweden"
-   @publishing_year = 2016
- end
+    def initialize (attrs = {})
+      self.total_pages = attrs[:total_pages]
+      self.title = attrs[:title]
+      self.author = attrs[:author]
+      self.publishing_year = attrs[:publishing_year]
+      self.publisher = attrs[:publisher]
+    end
  
-  def refer_to(page)
-    "#{@author}, #{@title}, #{@publisher}, #{@publishing_year}, #{page}"
-  end
-
+ 
+ 
+    def refer_to(page)
+        if page < self.total_pages 
+            "#{@author}, #{@title}, #{@publisher}, #{@publishing_year}, #{page}"
+        else 
+            "Pages not within range"
+        end
+    end
   
 end
