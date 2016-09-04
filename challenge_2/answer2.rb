@@ -1,7 +1,7 @@
-def age(number)
+def age(number) do
   case
-    when <18 then 'Young'
-    when >64 then 'Old'
-    else 'Adult'
+  when age<18 then puts 'Young'
+  when age>64 then puts 'Old'
+  else puts 'Adult'
   end
 end
