@@ -9,7 +9,7 @@ ex.
 
 If (boolean condition/True or false) Then
     //consequent/do this
- Else
+ elsif //else if
     //alternative/do this instead
- Else If
+ Else
 end
