@@ -12,10 +12,12 @@ class Book
  end
 
  def citate(attrs)
-   if attrs.nil? || (attrs == {}) || (attrs == "")
-     attrs = {page: "no page given"}
+   if attrs[:page].nil? || (attrs[:page] == {}) || (attrs[:page] == "")
+     attrs[:page] = "no page given"
    end
-  #  if # must now test if 'page' is a string but not "no page given" Or up top there could put 'if page is not an integer'
+   if (attrs[:page].kind_of? String) && (attrs[:page] != "no page given")
+     raise "please enter a page number"
+   end
   if self.author.nil?
     raise "no author found"
   elsif self.title.nil?

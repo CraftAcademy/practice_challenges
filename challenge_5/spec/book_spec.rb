@@ -23,11 +23,11 @@ describe Book do
   end
 
   it 'should default to "no page given" if no page cited' do
-    expect(@book.citate("")).to eq "Amber, Testing environments and passing params and inputs, Amber Bo Bamber, 1984, no page given."
+    expect(@book.citate(page: "")).to eq "Amber, Testing environments and passing params and inputs, Amber Bo Bamber, 1984, no page given."
   end
 
   it 'should raise "please enter a page number" if asked to cite something other than a number' do
-    expect {@book.citate("monkeys")}.to raise_error "please enter a page number"
+    expect {@book.citate(page: "monkeys")}.to raise_error "please enter a page number"
   end
 
 end
