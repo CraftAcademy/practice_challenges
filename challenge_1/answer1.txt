@@ -1,0 +1,14 @@
+What are conditionals and can you name two specific ones?
+
+---------------------------------
+
+Conditionals are used in Programming as directions for what you want
+the program to run, when and under what premises.
+
+ex.
+
+If (boolean condition/True or false) Then
+    (consequent/do this)
+ Else
+    (alternative/do this instead)
+ End If
