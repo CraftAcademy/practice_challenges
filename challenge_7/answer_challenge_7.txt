@@ -1,0 +1,13 @@
+- Explain the concept of Acceptance - Unit test cycle
+
+The idea for acceptence tests and unit tests is to focus on the requirements before
+writing the code or/and also test an already existing code/legacy code.
+You create User Stories and make tests for them.
+It creates a good workflow and reduces the debugging time.
+
+
+-----------------------------------------------------------------------
+
+- What tools would you use if working with AUC on a Sinatra application?
+
+Cucumber for testing the "big picture" and Rspec for small/unit tests.
