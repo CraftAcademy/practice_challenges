@@ -1,0 +1,18 @@
+- What are the 3 components of a User story.
+
+1. The first part represents WHO wants to to something "As a user"
+
+2. The second part explaines the purpose, WHY the action is needed
+   "In order to send emails"
+
+3. The third part explained WHAT is needed for it to function
+   "I would like to access the compose page"
+
+
+- Can you give an example of a High level user story?
+
+As a user
+In order to send emails
+I would like to access the compose page
+
+Is a user story we are working on today (week 5)
