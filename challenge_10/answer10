@@ -1,0 +1,12 @@
+- Explain the Single Responsibility Principle Pattern
+It means that every class has only has one responsability over ONE part of functionality - nothing else.
+And because of that it can be only one reason to change it. It is a part of object oriented programming,
+as I understand it, and the principle exist so as to keep things as simple and easy to read as possible,
+so programs are not totally confusing it their functionalities.
+
+
+- Explain the DRY principle
+DRY stands for Don´t Repeat Yourself and means that you should keep the code short and effective.
+You should know what everything means and only use as much code as you need, not more , not less.
+And don´t do three times what you only need to do once. It sounds simple, but it is not for a
+beginner who often to a degree goes on trial and error.
