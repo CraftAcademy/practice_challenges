@@ -1,10 +1,10 @@
 def age(number)
 
   if age => 18
-    puts "Young"
+    "Young"
   elsif age =< 64
-    puts "Senior"
+    "Senior"
   else
-    puts "Adult"
+    "Adult"
   end
 end
