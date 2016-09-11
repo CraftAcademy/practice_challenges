@@ -1,9 +1,9 @@
-Sweden.create(country: Sweden, capital: Stockholm)
+sweden = Hash.new
 
-def self.create(params)
-  @country = params[:country]
-  @capital = params[:capital]
+{"Sweden" => :country
+          "Stockholm" => :capital
+        }
 
-puts{:capital + "is the capital of" + :country} do
-  end
+puts :capital + "is the capital of" + :country
+
 end
