@@ -1,0 +1,8 @@
+- Explain the concept of Acceptance - Unit test cycle
+In the Acceptance - Unit test cycle you first describe how the user will interact with different parts of the application.
+Then you build the functions required. I the Craft Academy Git book the author describes it is as working "outside-in to
+implement features". It is used as a help to ensure that the application-creaters are building the right functions at the
+right time.
+
+- What tools would you use if working with AUC on a Sinatra application?
+In a Sinatra application I would use rSpec, Cucumber and Capybara for tests.
