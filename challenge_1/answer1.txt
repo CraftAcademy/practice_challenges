@@ -7,9 +7,8 @@ the program to run, when and under what premises.
 
 ex.
 
-if (boolean condition/True or false) Then
+  if (boolean condition/True or false) Then
     //consequent/do this
- elsif //else if
+  else 
     //alternative/do this instead
- Else
 end
