@@ -1,10 +1,8 @@
-def age(number)
-
-  if age => 18
-    "Young"
-  elsif age =< 64
-    "Senior"
-  else
-    "Adult"
-  end
+case
+when age <= 18
+  "Young"
+when age >= 64
+  "Adult"
+else
+  "Senior"
 end

@@ -3,11 +3,11 @@ require './lib/book'
 describe Book do
 
   before(:each) do
-    @book = Book.new(author: "Thomas Ochman", title: "Coding As A Craft", publisher: "Pragmatic Sweden", publishing_year: 2016, pages: 50)
+    @book = Book.new(author: "Viktoria", title: "Coding As A Craft", publisher: "Pragmatic Sweden", publishing_year: 2016, pages: 50)
   end
 
     it 'should have an author' do
-      expect(@book.author).to eq "Thomas Ochman"
+      expect(@book.author).to eq "Viktoria"
     end
 
     it 'should have a title' do
@@ -27,6 +27,10 @@ describe Book do
     end
 
     it 'should return a source citation of the book' do
-      expect(@book.all).to be truthy
+      expect(@book.source_citation(45)).to eq "Viktoria, Coding As A Craft, Pragmatic Sweden, 2016, 45"
+    end
+
+    it 'should reject source citation of the book if page doesn\'t exist' do
+      expect(@book.source_citation(51)).to eq "impossible"
     end
 end
