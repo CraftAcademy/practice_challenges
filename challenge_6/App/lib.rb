@@ -1,25 +1,7 @@
-
-
-
-
-Sweden
-
-Country = ['Stockholm', 'Gothenburg', 'Pretoria']
-City = ['Stockholm', 'Gothenburg', 'Pretoria']
-
-
-
-
-{country: "Sweden", capital: "Stockholm"}
-{country: "South Africa", capital: "Pretoria"}
-{country: "Poland", capital: "Warsaw"}
-
-
-
-  puts Stockholm [:capital] + "is the capital of" + Sweden [:country]
+country = ['Sweden', 'South Africa', 'Poland']
+city = ['Stockholm', 'Pretoria', 'Warsaw']
+  country.each do |country|
+  city.each do |city|
+    puts "#{city} is the capital of #{country}"
+  end
 end
-
-
-- “The capital of Sweden is Stockholm”
-- “The capital of South Africa is Pretoria”
-- “The capital of Poland is Warsaw”
