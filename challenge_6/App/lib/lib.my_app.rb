@@ -1,3 +1,7 @@
+get '/' do
+    erb :index
+  end
+
 country = ['Sweden', 'South Africa', 'Poland']
 city = ['Stockholm', 'Pretoria', 'Warsaw']
   country.each do |country|
