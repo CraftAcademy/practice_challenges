@@ -1,9 +1,3 @@
-sweden = Hash.new
-
-{"Sweden" => :country
-          "Stockholm" => :capital
-        }
-
-puts :capital + "is the capital of" + :country
-
+Sweden = {country: "Sweden", capital: "Stockholm"}
+  puts Stockholm [:capital] + "is the capital of" + Sweden [:country]
 end

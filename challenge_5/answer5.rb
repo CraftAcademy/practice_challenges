@@ -21,6 +21,7 @@ class Book
 
     end
 
+Funktion:
     def self.printAuthor ()
       puts 'Thomas Ochman, Coding As A Craft, Pragmatic Sweden, 2016, 50'
    end
