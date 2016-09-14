@@ -1,7 +1,2 @@
-cities = ['Stockholm']
-  cities.each do |cities|
-  countries = ['Sweden']
-  countries.each do |countries|
-puts "#{cities} is the capital of #{countries} "
-  end
-end
+sweden = {country: 'Sweden', capital: 'Stockholm'}
+puts "The capital of #{sweden[:country]} is #{sweden[:capital]}"
