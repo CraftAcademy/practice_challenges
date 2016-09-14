@@ -1,6 +1,8 @@
-obj = 'age'
-case obj.class
-    when 0..17 then "Young"
-    when 18..64 then "Adult"
-    else "Senior"
+case age
+when 0..17
+  'young'
+when 18..64
+  'Adult'
+else
+  'Senior'
 end
