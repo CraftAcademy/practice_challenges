@@ -1,6 +1,10 @@
+require 'sinatra'
+
+class App < Sinatra:
 get '/' do
     erb :index
   end
+
 
 country = ['Sweden']
 city = ['Stockholm']
