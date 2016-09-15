@@ -1,11 +1,11 @@
 class Book
   attr_accessor :pages, :title, :author, :publishing_year, :publisher
 
-  def initilize
-    @pages = 50
-    @title = 'Coding As A Craft'
-    @author = 'Thomas Ochman'
-    @publishing_year = 2016
-    @publisher = 'Pragmatic Sweden'
+  def initialize(pages, title, author, publishing_year, publisher)
+    @pages = pages
+    @title = title
+    @author = author
+    @publishing_year = publishing_year
+    @publisher = publisher
   end
 end

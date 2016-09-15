@@ -1,23 +1,27 @@
-require './challenge_5/lib/book.rb'
+require './lib/book.rb'
 
 describe Book do
+  before do
+    @book = Book.new(500, 'Coding As Food', 'Yvonne Ochman', 2014, 'Pragmatic Not')
+  end
+
   it 'has 50 pages' do
-    expect (subject.pages).to eq 50
+    expect(@book.pages).to eq 500
   end
 
   it 'has an author' do
-    expect (subject.author.to eq 'Thomas Ochman'
+    expect(@book.author).to eq 'Yvonne Ochman'
+  end
+
+  it 'has a publishing_year' do
+    expect(@book.publishing_year).to eq 2014
   end
 
   it 'has a publisher' do
-    expect (subject.publisher.to eq 'Pragmatic Sweden'
-  end
-
-  it 'has a publising_year' do
-    expect (subject.publishing_year.to eq '2016'
+    expect(@book.publisher).to eq 'Pragmatic Not'
   end
 
   it 'has a title' do
-    expect (subject.publishing_year.to eq 'Coding As A Craft'
+    expect(@book.title).to eq 'Coding As Food'
   end
 end
