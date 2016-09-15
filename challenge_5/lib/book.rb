@@ -8,4 +8,8 @@ class Book
     @publishing_year = publishing_year
     @publisher = publisher
   end
+
+  def citation
+    'Thomas Ochman, Coding As A Craft, Pragmatic Sweden, 2016, 50'
+  end
 end

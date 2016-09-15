@@ -24,4 +24,9 @@ describe Book do
   it 'has a title' do
     expect(@book.title).to eq 'Coding As Food'
   end
+
+  it 'should return a source citation of the book' do
+    expect(@book.citation).to eq 'Thomas Ochman, Coding As A Craft, Pragmatic Sweden, 2016, 50'
+  end
+
 end
