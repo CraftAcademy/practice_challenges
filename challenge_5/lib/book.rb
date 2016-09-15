@@ -10,6 +10,7 @@ class Book
   end
 
   def citation
-    'Thomas Ochman, Coding As A Craft, Pragmatic Sweden, 2016, 50'
+    book_2 = {author: 'Thomas Ochman', title: 'Coding As A Craft', publisher: 'Pragmatic Sweden', publishing_year: 2016, pages: 50}
+    puts "#{book_2[:author]}, #{book_2[:title]}, #{book_2[:publisher]}, #{book_2[:publishing_year]}, #{book_2[:pages]}"
   end
 end
