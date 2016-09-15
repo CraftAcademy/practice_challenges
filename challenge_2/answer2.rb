@@ -1,9 +1,10 @@
 age=17
 
-if age < 18
-  return 'Young'
-elseif age > 64
-  return 'Old'
+case
+when age < 18
+  'Young'
+when age > 64
+  'Senior'
 else
-  return 'Adult'
+  'Adult'
 end
