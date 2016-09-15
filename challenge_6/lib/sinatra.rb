@@ -5,7 +5,7 @@ class TestApp < Sinatra::Base
     sweden = {country: 'Sweden', capital: 'Stockholm'}
     poland = {country: 'Poland', capital: 'Warsaw'}
     sa = {country: 'South Africa', capital: 'Pretoria'}
-    @collection = [sweden, poland, sa]
+    @countries = [sweden, poland, sa]
     erb :index
   end
 
