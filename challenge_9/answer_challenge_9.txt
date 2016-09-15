@@ -1,0 +1,14 @@
+- Explain the Three Tier architecture
+
+Presentation tier - is what users can access/see directly.
+Application tier - controls the applications functionality.
+Data tier - the database, where the information is stored and collected.
+
+
+---------------------------------------------------------
+- Explain the MVC pattern
+
+MVC stands for Model-View-Controller.
+Model - the applications data
+View - user interface
+Controller - communicates between the user and the model

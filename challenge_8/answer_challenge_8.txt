@@ -1,0 +1,11 @@
+- What are the 3 components of a User story.
+
+As a <role> So that/In order to <business value> I want to <feature>
+
+--------------------------------------------------------------
+
+- Can you give an example of a High level user story?
+
+As a visitor
+In order to buy clothes
+I want to see images of clothes on the site
