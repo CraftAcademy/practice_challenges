@@ -1,0 +1,12 @@
+- Explain the Three Tier architecture
+This principle is a little abstract to me, but basically it means that this type of
+architechure has many "tier:s" that they keep seperate from eachother, preferably on
+different platsforms,so that for instance the presentation-part is physically separated
+from the data managing part and the applications processin part.
+
+- Explain the MVC pattern
+The Model-View-Controller pattern is something we have talked a lot about during this course.
+Like the Three Tier-model above it keeps its parts seperated from eachother. MVC stands for:
+Model (the information that the application processes and the how it changes if it can change)
+View (what the user can see)
+Controller (that interacts with the view, the users response if there are any, and the Model)
