@@ -2,13 +2,13 @@
 
 ENV['RACK_ENV'] = 'test'
 
-require File.join(File.dirname(__FILE__), '..', 'challenge_6/lib/views/feature.rb')
+require File.join(File.dirname(__FILE__), '..', 'lib/sinatra.rb')
 
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
 
-Capybara.app = MyApp
+Capybara.app = Country
 
 RSpec.configure do |config|
   config.include Rack::Test::Methods
