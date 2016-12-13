@@ -1,0 +1,5 @@
+What are conditionals and can you name two specific ones?
+
+* Conditionals are features that return either true or false. They enable a program to behave differently depending on the input.
+
+example: if/else and unless statements.
